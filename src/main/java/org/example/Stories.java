@@ -24,9 +24,5 @@ public class Stories {
             return countArrangements(stories - 1) + countArrangements(stories - 2);
         }
     }
-
-    public static void main(String[] args) {
-        int stories = 3;
-        System.out.println("Number of arrangements for " + stories + " stories: " + countArrangements(stories));
-    }
 }
+
